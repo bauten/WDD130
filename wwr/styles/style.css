@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
 
+#logo_link {
+    padding-top: 5px;
+}
 #content {
     max-width:1600px;
     margin: 0 auto;
 }
 nav a {
+    color:white;
+    text-decoration: underline;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
+}
+.home-title {
+    font-family: Lobster, Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #hero-msg {
     text-align: center;
@@ -13,7 +25,10 @@ nav a {
 h1 {
     text-align: center;
 }
-
+h2 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 h4{
     text-align: center;
 }
@@ -30,6 +45,10 @@ main section {
 
 body {
     background-color: #A4C3B2;
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 
 }
 header {
@@ -38,15 +57,32 @@ header {
 nav a:hover {
     background-color: black;
 }
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
 .book {
 color:blue;
 text-decoration: none;
 background-color:blanchedalmond;
+font-size: 18px;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
 }
 .join {
 color:blue;
 text-decoration: none;
 background-color:blanchedalmond;
+font-size: 18px;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
 }
 .book:hover {
 color:yellow;
@@ -56,16 +92,31 @@ background-color: black;
 color:yellow;
 background-color:black;
 }
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
 .msg {
 color:white;
 background-color:#6b9080;
-
+line-height: 1.5em;
+padding: 35px;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
-background-color: #6b9080 ;        
+background-color: #6b9080 ;
+padding: 25px 50px; 
+padding-top: 15px; 
+margin-top: 200px;      
 }
 .icon {
     width:80px;
+    padding-top: 10px;
 }
 .logo{
     width:80px;
@@ -81,4 +132,11 @@ footer p {
 }
 footer p a:hover {
     text-decoration:underline;
+}
+
+.social {
+    padding-top: 15px;
+}
+img {
+    padding-top: 15px;
 }
