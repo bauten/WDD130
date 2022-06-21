@@ -55,6 +55,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
+
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
@@ -102,6 +103,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  
 }
 nav  {
   list-style-type: none;
