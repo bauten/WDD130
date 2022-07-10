@@ -31,8 +31,12 @@ nav a {
     color:white; 
     margin-top: 500px;
 }
-
-
+#project-msg {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 350px;
+}
 #drone-msg {
     text-align: center;
     grid-column: 2/3;
@@ -113,7 +117,11 @@ nav a:hover {
     width: auto;
 
 }
-
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
 
 .home-grid {
     display: grid;
@@ -160,7 +168,36 @@ main section img {
     box-sizing: border-box;
 }
 
-
+.project-teton{
+    padding:50px;
+    border-bottom: 10px solid black;
+}
+.teton-info{
+    padding:50px;
+    border-bottom: 10px solid black;
+}
+.project-pepperwood{
+    padding:50px;
+    border-bottom: 10px solid black;
+}
+.pepperwood-info{
+    padding:50px;
+    border-bottom: 10px solid black;
+}
+.project-cariboucity{
+    padding:50px;
+    border-bottom: 10px solid black;
+}
+.cariboucity-info{
+    padding:50px;
+    border-bottom: 10px solid black;
+}
+.proj-img{
+    padding:50px;
+}
+.project-info{
+    text-align: left;
+}
 footer {
 background-color: #DDA15E ;
 padding: 25px 50px; 
