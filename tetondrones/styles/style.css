@@ -120,6 +120,9 @@ nav a:hover {
 #about_me {
     text-align: center;
 }
+.about_me_img {
+    width: 400px;
+}
 .project-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
