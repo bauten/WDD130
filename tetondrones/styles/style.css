@@ -111,6 +111,9 @@ nav a:hover {
     border: 2px solid #BC6C25;
     color: white;
 }
+.drone_box_img {
+    width: 100%
+}
 #about {
     grid-column: 2/3;
     padding: 50px;
