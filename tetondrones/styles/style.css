@@ -225,7 +225,6 @@ padding: 25px 50px;
 padding-top: 15px; 
 margin-top: 200px;
 display: grid;
-grid-column: 1fr 1fr 1fr 2fr;
 justify-content: space-around;
 align-items: center;      
 }
